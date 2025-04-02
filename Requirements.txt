@@ -1,3 +1,5 @@
-flask
-twilio
+Flask
+requests
+google-generativeai
+sqlite3
 gunicorn
