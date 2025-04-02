@@ -9,6 +9,8 @@ Original file is located at
 
 !pip install twilio openai flask flask-ngrok
 
+pip freeze > requirements.txt
+
 import sqlite3
 
 # Conectar a la base de datos
