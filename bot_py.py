@@ -9,9 +9,14 @@ Original file is located at
 
 !pip install flask requests google-generativeai gunicorn
 
-!pip install --upgrade pip
+# Commented out IPython magic to ensure Python compatibility.
+# %%writefile requirements.txt
+# flask
+# requests
+# google-generativeai
+# gunicorn
 
-
+!pip install -r requirements.txt
 
 import sqlite3
 
@@ -89,14 +94,6 @@ import os
 
 os.environ["GEMINI_API_KEY"] = "AIzaSyDBHS8DuGYlO7gtvWHYp6XAIJAyGi2WFUk"
 API_KEY_360 = "1h0BqZCBsONxZWfP4sAoOALLAK"
-
-!pip install requests flask ngrok google-generativeai
-
-!pip install pyngrok
-
-!pip install flask-ngrok
-
-from flask_ngrok import run_with_ngrok
 
 import sqlite3
 
